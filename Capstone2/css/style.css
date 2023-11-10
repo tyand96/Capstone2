@@ -1,0 +1,115 @@
+.bg-body-tertiarys {
+  background-color: #D7C0AE!important;
+}
+
+.bg-body-secondarys {
+  background-color: #EEE3CB!important;
+}
+
+.bg-body-primarys {
+  background-color: #9BABB8!important;
+}
+
+#name-brand {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+#name-intro {
+  font-family: 'Exo', sans-serif;
+  font-style: italic;
+}
+
+.main-header {
+  font-family: 'Exo', sans-serif;
+}
+
+.profile-img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.hero-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+
+.hero-svg {
+  filter: invert(72%) sepia(13%) saturate(320%) hue-rotate(165deg) brightness(90%) contrast(92%);
+  transform: rotate(30deg);
+}
+
+.skill-back {
+  background-color: #9BABB8;
+  border-radius: 50%;
+}
+
+.skill-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+  border-radius: 1rem;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+}
+
+li.timeline-item:before {
+  content: ' ';
+  background: #ddd;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+.timeline-arrow {
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid #fff;
+  border-bottom: 0.5rem solid transparent;
+  display: block;
+  position: absolute;
+  left: 2rem;
+}
+
+.text-gray {
+  color: #999;
+}
